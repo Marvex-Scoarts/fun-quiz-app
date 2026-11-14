@@ -2,7 +2,7 @@
 
 An interactive, dark-mode + neon arcade trivia game built from scratch for our family get-together! Designed for two teams to battle it out across 50 fun, educational, and brain-teasing questions.
 
-**Play the Live Game Here:** `https://[your-username].github.io/family-quiz/` *(Update this link once GitHub Pages is live!)*
+**Play the Live Game Here:** `https://marvex-scoarts.github.io/fun-quiz-app/
 
 ---
 
@@ -18,7 +18,7 @@ An interactive, dark-mode + neon arcade trivia game built from scratch for our f
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **HTML5** – App structure and game screens
 - **CSS3** – Custom dark-neon styling, CSS Grid layout, and glow animations
