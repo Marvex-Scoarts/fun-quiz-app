@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Friend Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    
+    <!-- SCREEN 1: Active Quiz -->
+    <div id="quiz-screen">
+      <!-- NEW: Team Turn & Score Banner -->
+      <div id="team-banner">
+        <span id="turn-indicator">🔥 Team 1's Turn</span>
+        <span id="team-scores">T1: 0 | T2: 0</span>
+      </div>
+
+      <div class="top-bar">
+        <span>Time Left: <strong id="timer">15</strong>s</span>
+        <span>Total Hits: <strong id="score">0</strong></span>
+      </div>
+
+      <h2 id="question-text">Question will load here?</h2>
+
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Option A</button>
+        <button class="btn">Option B</button>
+        <button class="btn">Option C</button>
+        <button class="btn">Option D</button>
+      </div>
+
+      <button id="next-btn">Next Question</button>
+    </div>
+
+    <!-- SCREEN 2: Final Results -->
+    <div id="result-screen">
+      <h2>Quiz Finished! 🎉</h2>
+      <p id="winner-announcement">Team 1 Wins!</p>
+      <p>Final Score — Team 1: <strong id="final-t1">0</strong> | Team 2: <strong id="final-t2">0</strong></p>
+      <p id="result-message">Great job!</p>
+      <button id="restart-btn">Play Again</button>
+    </div>
+
+  </div>
+
+  <!--Confetti Library-->
+  <script src="https://jsdelivr.net"></script>
+  <script src="script.js"></script>
+</body>
+</html>
